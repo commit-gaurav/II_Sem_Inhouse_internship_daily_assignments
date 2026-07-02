@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+    <style>
+        input{
+            border : none;
+            border-bottom: 2px solid black;
+            outline : none;
+            text-align: center;
+            font-weight: 500;
+        }
+        input[type="submit"]{
+            border:revert;
+            font-size: 18px;
+        }
+    </style>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="" method="post">
+        <b>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <br>
+        <input type="number" id="age" name="age">
+        <br><br>
+
+        <label for = "email id">Email:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for ="Department">Department:</label>
+        <br>
+        <input type="text" id="Department" name="department">
+        <br><br>
+
+        <label>Date Of Birth:</label>
+        &nbsp;
+        <input type="number" placeholder="DD" min="1" max="31">
+        /
+        <input type="number" placeholder="MM" min="1" max="12">
+        /
+        <input type="number" placeholder="YYYY" min="1900" max="2026">
+        <br><br>
+
+        <label for="city">City:</label>
+        &nbsp;
+        <input type="text" id="city" name="city">
+        <br><br>
+
+        <input type="submit" value="Submit">
+ 
+        </b>
+    </form>
+
+</body>
+</html>
