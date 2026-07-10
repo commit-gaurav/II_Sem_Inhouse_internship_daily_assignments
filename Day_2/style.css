@@ -1,0 +1,130 @@
+body {
+    background-color: #e8e8e8;
+    padding: 100px 0;
+    }
+
+.hr1 {
+        border: none;
+        border-top: 1.5px solid #333;
+        width: 100%;
+        margin-top: -10px;
+        margin-bottom: -1px;
+    }
+
+    .hr2 {
+        border: none;
+        border-top: 1.5px solid #333;
+        width: 100%;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+
+    .form-container {
+        padding: 45px;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        /* soft shadow */
+        width: 100%;
+        max-width: 500px;
+        background-color: white;
+        margin: 0 auto;
+        /* center the form */
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    .form-row2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        border: none;
+        border-bottom: 2px solid rgba(18, 113, 196, 0.922);
+        outline: none;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+
+        border: lightgray;
+        font-size: 20px;
+        background-color: #4CAF50;
+        /* Green */
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    label {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    select {
+        font-size: 15px;
+        border: none;
+        border-bottom: 2px solid rgba(18, 113, 196, 0.922);
+        outline: none;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .photo-btn {
+        background-color: black;
+        /* Green */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .upload-btn {
+        background-color: black;
+        /* Green */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .submit-btn {
+        text-align: center;
+    }
+
+    .h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    .h2 {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        /* Green */
+    }

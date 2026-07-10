@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<body>
+    <div class="form-container">
+
+        <h1 class="h1">ADMISSION FORM</h1>
+
+        <h2 class="h2">PERSONAL INFORMATION</h2>
+        <hr class="hr1">
+        <br>
+
+        <form action="" method="post">
+            <b>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first name">First Name:</label>
+                        <input style="width: 80%;" type="text" id="first name" name="first name">
+                        <br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="middle name">Middle Name:</label>
+                        <input style="width: 80%;" type="text" id="middle name" name="middle name"
+                            placeholder="Optional">
+                        <br>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last name">Last Name:</label>
+                        <input style="width: 80%;" type="text" id="last name" name="last name">
+                        <br>
+                    </div>
+                </div>
+
+                <label>Date Of Birth :</label>
+                &nbsp;
+                <input type="number" placeholder="DD" min="1" max="31">
+                /
+                <input type="number" placeholder="MM" min="1" max="12">
+                /
+                <input type="number" placeholder="YYYY" min="1900" max="2026">
+                <br><br>
+
+                <label for="gender">Gender :</label>
+                &nbsp;
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                &nbsp;
+
+                <label for="category">Category :</label>
+                &nbsp;
+                <select id="category" name="category">
+                    <option value="" disabled selected>Select</option>
+                    <option value="general">General</option>
+                    <option value="obc">OBC</option>
+                    <option value="sc">SC</option>
+                    <option value="st">ST</option>
+                    <option value="ews">EWS</option>
+                </select>
+
+                <br><br>
+
+                <h3 class="h2">CONTACT INFORMATION</h3>
+                <hr class="hr2">
+
+                <label for="email">Email :</label>
+                <br>
+                <input style="width: 80%;" type="email" id="email" name="email" placeholder="example@email.com">
+                <br><br>
+
+                <label for="phone number">Contact Number :</label>
+                <input style="width: 80%;" type="tel" id="phone number" name="phone number"
+                    placeholder="+91-XXXXXXXXXX">
+                <br><br>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nationality">Nationality :</label>
+                        <br>
+                        <input style="width: 80%;" type="text" id="nationality" name="nationality" placeholder="Indian">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State :</label>
+                        <br>
+                        <input style="width: 80%;" type="text" id="state" name="state">
+                        <br><br>
+                    </div>
+                    <div class="form-group">
+
+                        <label for="city">City :</label>
+                        <br>
+                        <input style="width: 80%;" type="text" id="city" name="city">
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address :</label>
+                    <br>
+                    <input type="text" id="address" name="address" placeholder="House No, Street, Area">
+                </div>
+                <div class="form-group">
+                    <label for="pincode">Pincode :</label>
+                    <br>
+                    <input style="width: 40%;" type="tel" id="pincode" name="pincode" pattern="[0-9]{6}"
+                        placeholder="6-digit PIN code">
+                </div>
+
+                <br><br>
+
+                <h4 class="h2">ACADEMIC INFORMATION</h4>
+                <hr class="hr2">
+
+                <div class="form-row2">
+                    <div class="form-group">
+                        <label for="10th board">10th Board :</label>
+                        <br>
+                        <input style="width: 80%;" type="text" id="10th board" name="10th board"
+                            placeholder="CBSE/ICSE/State Board">
+                    </div>
+                    <div class="form-group">
+                        <label for="10th percentage">10th Percentage :</label>
+                        <br>
+                        <input style="width: 80%;" type="number" id="10th percentage" name="10th percentage"
+                            placeholder="%" min="0" max="100">
+                    </div>
+                </div>
+
+                <div class="form-row2">
+                    <div class="form-group">
+                        <label for="12th board">12th Board :</label>
+                        <br>
+                        <input style="width: 80%;" type="text" id="12th board" name="12th board"
+                            placeholder="CBSE/ICSE/State Board">
+                    </div>
+                    <div class="form-group">
+                        <label for="12th percentage">12th Percentage :</label>
+                        <br>
+                        <input style="width: 80%;" type="number" id="12th percentage" name="12th percentage"
+                            placeholder="%" min="0" max="100">
+                    </div>
+                </div>
+
+                <div class="form-row2">
+                    <div class="form-group">
+                        <label for="entrance exam">Entrance Exam :</label>
+                        <br>
+                        <input style="width: 80%;" type="text" id="entrance exam" name="entrance exam"
+                            placeholder="JEE/Other">
+                    </div>
+                    <div class="form-group">
+                        <label for="percentile">Percentile :</label>
+                        <br>
+                        <input style="width: 80%;" type="number" id="percentile" name="percentile" placeholder="%"
+                            min="0" max="100">
+                    </div>
+                </div>
+
+                <h5 class="h2">COURSE INFORMATION</h5>
+                <hr class="hr2">
+                <div class="form-row2">
+                    <div class="form-group">
+                        <label for="degree">Degree :</label>
+                        <br>
+                        <select id="degree" name="degree">
+                            <option value="" disabled selected>Select</option>
+                            <option value="btech">B.Tech</option>
+                            <option value="mtech">M.Tech</option>
+                            <option value="mba">MBA</option>
+                            <option value="bpharma">B.Pharm</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="department">Department (only for B.Tech) :</label>
+                        <br>
+                        <select id="department" name="department">
+                            <option value="" disabled selected>Select</option>
+                            <option value="cse">Computer Science</option>
+                            <option value="ece">Electronics</option>
+                            <option value="mech">Mechanical</option>
+                            <option value="civil">Civil</option>
+                        </select>
+                    </div>
+                </div>
+
+                <h6 class="h2">DOCUMENTS TO BE SUBMITTED</h6>
+                <hr class="hr2">
+                <br>
+                <label class="photo-btn" for="photo">Upload Passport size Photo</label>
+                <input type="file" id="photo" name="photo" accept="image/*" style="display: none;">
+                <br><br><br>
+                <label class="upload-btn" for="marksheet">Upload 10th Marksheet</label>
+                <input type="file" id="marksheet" name="marksheet" accept=".pdf" style="display: none;">
+                <br><br><br>
+                <label class="upload-btn" for="12th marksheet">Upload 12th Marksheet</label>
+                <input type="file" id="12th marksheet" name="12th marksheet" accept=".pdf" style="display: none;">
+                <br><br><br>
+                <label class="upload-btn" for="entrance result">Upload Entrance Exam result</label>
+                <input type="file" id="entrance result" name="entrance result" accept=".pdf" style="display: none;">
+                <br><br><br>
+                <label class="upload-btn" for="transfer certificate">Upload Transfer Certificate</label>
+                <input type="file" id="transfer certificate" name="transfer certificate" accept=".pdf"
+                    style="display: none;">
+                <br><br><br>
+                <label class="upload-btn" for="aadhar">Upload Aadhar Card</label>
+                <input type="file" id="aadhar" name="aadhar" accept=".pdf" style="display: none;">
+                <br><br><br>
+                <label class="upload-btn" for="caste certificate">Upload Caste Certificate</label>
+                <input type="file" id="caste certificate" name="caste certificate" accept=".pdf" style="display: none;">
+                <br><br><br>
+                <label class="upload-btn" for="signature">Upload Signature</label>
+                <input type="file" id="signature" name="signature" accept="image/*" style="display: none;">
+                <br><br><br>
+                <div class="submit-btn">
+                    <input type="submit" value="Submit">
+                </div>
+            </b>
+        </form>
+</body>
+
+</html>

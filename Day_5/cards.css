@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.student-card {
+    background: #ffffff;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease;
+}
+
+.student-card:hover {
+    transform: translateY(-5px);
+}
+
+.photo-container {
+    margin-top: 40px; /* Pulls image up into the header slightly */
+}
+
+.student-photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.student-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 12px;
+}
+
+.student-title {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+/* Key-Value Details List */
+.student-details {
+    padding: 0 30px;
+    text-align: left;
+}
