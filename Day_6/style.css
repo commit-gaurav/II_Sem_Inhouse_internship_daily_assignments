@@ -1,0 +1,19 @@
+body {
+  background-color: #f4f4f4;
+}
+
+#card-container {
+  margin-top: 1rem;
+}
+
+.post-card {
+  height: 100%;
+}
+
+.post-card .card-title {
+  text-transform: capitalize;
+}
+
+.post-card .card-text {
+  color: #555;
+}

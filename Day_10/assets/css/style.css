@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.stat-card {
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.stat-card .stat-value {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.stat-card .stat-label {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.stat-card.bg-total   { background: linear-gradient(135deg,#4f46e5,#6366f1); }
+.stat-card.bg-avg     { background: linear-gradient(135deg,#059669,#10b981); }
+.stat-card.bg-branch  { background: linear-gradient(135deg,#d97706,#f59e0b); }
+
+.student-photo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e5e7eb;
+}
+
+.photo-placeholder {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    font-size: 1.1rem;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.table thead {
+    background-color: #f3f4f6;
+}
+
+.badge-branch {
+    background-color: #eef2ff;
+    color: #4338ca;
+    font-weight: 600;
+}
